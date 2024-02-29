@@ -31,6 +31,10 @@ python3 ./Result.py -w nn-weight_best.npz -i image.jpg
 
 ## Training.py
 "Build and Learn a CNN model for structure spotting using pretrained model and Leibniz manuscript images. "
+Usage:
+```
+python3 ./Training.py
+```
 
 
 ## Evaluation.py
@@ -38,7 +42,7 @@ python3 ./Result.py -w nn-weight_best.npz -i image.jpg
 
 Usage:
 ```
-# image means .jpg file and .csv file name
+# image means image.jpg file and image.csv file name
 python3 ./Result.py -w nn-weight_best.npz -i image
 ```
 
